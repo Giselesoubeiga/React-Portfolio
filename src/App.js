@@ -6,7 +6,9 @@ import Container from './components/Container';
 import Nav from './components/Nav';
 import Footer from './components/Footer'
 
+
 function App() {
+ 
   return (
     <div className="site_wrapper" >
       <Header/>

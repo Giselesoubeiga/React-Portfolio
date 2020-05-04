@@ -1,6 +1,7 @@
 body{
 
     font-family:  Georgia, 'Times New Roman', Times, serif;
+    /* font-family: 'Poppins', sans-serif; */
 }
 .topHeader{
   position: relative;
@@ -48,10 +49,43 @@ body{
   padding: 50px 0;
 }
 
-.github,.linkedin{
-  height: 50px;
+.github,.linkedin,.gmail{
+  border-radius: 40px;
+  height: 40px;
   margin-right: 10px;
   cursor: pointer;
-border: 1px solid #ccc;
+  border: 1px solid #ccc;
+  margin-top: 15px;
+  padding: 5px;
+
 
 }
+
+.btn{
+  margin-top: 15px;
+}
+
+.textTitle{
+  color: green;
+  margin-bottom: 38px;
+}
+
+.portfolio{
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  margin-top: 50px;
+  min-height: 500px;
+  background: silver;
+}
+
+.contact{
+  min-height: 500px;
+  /* background: aliceblue; */
+}
+
+.footeritem{
+  min-height: 150px;
+  background-color: rgb(6, 6, 20);
+}
+
