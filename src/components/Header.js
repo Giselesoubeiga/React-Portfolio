@@ -7,8 +7,8 @@ import React from "react";
                  <div className="topHeader">
                     <div className="filter"></div>
                      <div className="titleContainer">
-                     <h1 className="topTitle"> Hello I'm Gisele,</h1>
-                     <h2 className="smalTitle"> Front End web Developer</h2>
+                     <h1 className="topTitle">Gisele Soubeiga,</h1>
+                     <h2 className="smalTitle"> Front-end / Full stack Web Developer</h2>
                      </div>
                      
                  </div>

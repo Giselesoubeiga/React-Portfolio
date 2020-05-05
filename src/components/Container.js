@@ -3,7 +3,12 @@ import profil from "./../profil.jpg"
 import github from "./../git.PNG"
 import linkedin from "./../link.PNG"
 import gmail from "./../gmail2.png"
-import projectImg from "./../projects.jpg"
+
+import vibe from "./../Vibe.PNG"
+import passwordgenerator from "./../Passwordgenerator.PNG"
+import daypalanner from "./../Workdayscheduler.PNG"
+import burger from "./../burgerApp.PNG"
+import archer from "./../archer.PNG"
 
 
   class Container extends React.Component {
@@ -11,10 +16,12 @@ import projectImg from "./../projects.jpg"
           super(props)
           this.state={
             projects:[
-              {id:1,name:"password generator",img:projectImg,githublink:"https://github.com/",link:"https://github.com/"},
-              {id:2,name:"password generator",img:projectImg,githublink:"https://github.com/",link:"https://github.com/"},
-              {id:3,name:"password generator",img:projectImg,githublink:"https://github.com/",link:"https://github.com/"},
-              {id:4,name:"password generator",img:projectImg,githublink:"https://github.com/",link:"https://github.com/"},
+             
+              {id:2,name:"Vibe(Group Project",img:vibe,githublink:"https://github.com/",link:"https://github.com/"},
+              {id:3,name:"password generator",img:passwordgenerator,githublink:"https://github.com/",link:"https://github.com/"},
+              {id:4,name:"Burger-App",img:burger,githublink:"https://github.com/",link:"https://github.com/"},
+              {id:4,name:"Archer-Forums",img:archer,githublink:"https://github.com/",link:"https://github.com/"},
+              {id:4,name:"Day-Planner",img:daypalanner,githublink:"https://github.com/",link:"https://github.com/"},
             //   
             ]
           }
