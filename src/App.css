@@ -1,6 +1,9 @@
+*{
+   font-family: 'Poppins', sans-serif;
+}
 body{
 
-    font-family:  Georgia, 'Times New Roman', Times, serif;
+    /* font-family:  Georgia, 'Times New Roman', Times, serif; */
     /* font-family: 'Poppins', sans-serif; */
 }
 .topHeader{
@@ -72,7 +75,7 @@ body{
 
 .portfolio{
   display: flex;
-  padding: 10px 20px;
+  padding: 100px 20px;
   align-items: center;
   margin-top: 50px;
   min-height: 500px;
@@ -80,6 +83,10 @@ body{
 }
 
 .contact{
+  min-height: 500px;
+  padding: 50px 20px;
+  align-items: center;
+  margin-top: 30px;
   min-height: 500px;
   /* background: aliceblue; */
 }
@@ -89,3 +96,33 @@ body{
   background-color: rgb(6, 6, 20);
 }
 
+.projectCard{
+  min-height: 250px;
+  margin-bottom: 30px;
+  background: white;
+}
+.projectCard img{
+  height:230px;
+  width:100%
+}
+
+.projectTitle{
+  padding:20px;
+  font-size: 18px;
+  text-align:center;
+}
+
+.portfoliotTitle{
+  color: white;
+  text-align:center;
+  margin-bottom:50px;
+}
+
+
+.contact{
+
+}
+
+.contact h1{
+  text-align: center;
+}
