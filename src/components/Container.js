@@ -19,12 +19,12 @@ import archer from "./../archer.PNG"
           this.state={
             projects:[
              
-              {id:2,name:"Vibe(Group Project",img:vibe,githublink:"https://github.com/",link:"https://github.com/"},
-              {id:3,name:"password generator",img:passwordgenerator,githublink:"https://github.com/",link:"https://github.com/"},
+              {id:2,name:"Vibe(Group Project)",img:vibe,githublink:"https://github.com/",link:"https://github.com/"},
+              {id:3,name:"Password-generator",img:passwordgenerator,githublink:"https://github.com/",link:"https://github.com/"},
               {id:4,name:"Burger-App",img:burger,githublink:"https://github.com/",link:"https://github.com/"},
               {id:4,name:"Archer-Forums",img:archer,githublink:"https://github.com/",link:"https://github.com/"},
               {id:4,name:"Day-Planner",img:daypalanner,githublink:"https://github.com/",link:"https://github.com/"},
-              {id:2,name:"Vibe(Group Project",img:vibe,githublink:"https://github.com/",link:"https://github.com/"},
+              {id:2,name:"Vibe(Group Project)",img:vibe,githublink:"https://github.com/",link:"https://github.com/"},
             //   
             ]
           }
@@ -100,13 +100,13 @@ import archer from "./../archer.PNG"
                      <div className="col-lg-8 ">
                      <form>
                      <div className="form-group">
-                        <input type="text" className="form-control" placeholder="Username"/>
+                        <input type="text" className="form-control" placeholder="Name"/>
                      </div>
                      <div className="form-group">
-                        <input type="text" className="form-control" placeholder="Username"/>
+                        <input type="text" className="form-control" placeholder="E-mail"/>
                      </div>
                      <div className="form-group">
-                       <textarea className="form-control" rows="8">
+                       <textarea className="form-control" placeholder="Message" rows="8">
                        </textarea>
                      </div>
                      </form>
