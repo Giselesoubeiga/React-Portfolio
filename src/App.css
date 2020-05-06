@@ -115,11 +115,13 @@ body{
 .portfoliotTitle{
   color: white;
   text-align:center;
-  margin-bottom:50px;
+  margin-bottom:30px;
 }
-
-
-.contact{
+.portfoliotTitle2{
+  margin-top: 5px;
+  color: white;
+  text-align:center;
+  margin-bottom:50px;
 
 }
 
