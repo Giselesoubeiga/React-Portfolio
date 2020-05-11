@@ -8,10 +8,10 @@ import github from "./../git.PNG";
 import linkedin from "./../link.PNG";
 import gmail from "./../gmail2.png";
 import vibe from "./../Vibe.PNG";
-import passwordgenerator from "./../Passwordgenerator.PNG";
 import daypalanner from "./../Workdayscheduler.PNG";
 import burger from "./../burgerApp.PNG";
 import archer from "./../archer.PNG";
+import employee from "./../employeeDirectory.PNG"
 
 class Container extends React.Component {
   constructor(props) {
@@ -20,48 +20,45 @@ class Container extends React.Component {
       projects: [
         {
           id: 2,
-          name: "Vibe(Group Project)",
-          img: vibe,
-          githublink: "https://github.com/",
-          link: "https://github.com/",
-          description: `I hope to interact and work with other creative minds to grow my skills as
-          a developer in this field.`,
-        },
-        {
-          id: 3,
-          name: "Password-generator",
-          img: passwordgenerator,
-          githublink: "https://github.com/",
-          link: "https://github.com/",
-          description: `I hope to interact and work with other creative minds to grow my skills as
-          a developer in this field.`,
-        },
-        {
-          id: 4,
-          name: "Burger-App",
-          img: burger,
-          githublink: "https://github.com/",
-          link: "https://github.com/",
-          description: `I hope to interact and work with other creative minds to grow my skills as
-          a developer in this field.`,
-        },
-        {
-          id: 4,
-          name: "Archer-Forums",
-          img: archer,
-          githublink: "https://github.com/",
-          link: "https://github.com/",
-          description: `I hope to interact and work with other creative minds to grow my skills as
-          a developer in this field.`,
-        },
-        {
-          id: 4,
           name: "Day-Planner",
           img: daypalanner,
           githublink: "https://github.com/",
           link: "https://github.com/",
-          description: `I hope to interact and work with other creative minds to grow my skills as
-          a developer in this field.`,
+          description: `Javascript - Momentjs - jQuery -  HTML -  CSS,
+          Bootstrap.`,
+        },
+        {
+          id: 3,
+          name: "Burger-App",
+          img:burger,
+          githublink: "https://github.com/",
+          link: "https://github.com/",
+          description: `Bootstrap - Express.js - Node.js - Sequelize - Handlebars.js - MySql - Heroku.`,
+        },
+        {
+          id: 4,
+          name: "Employee-Directory",
+          img: employee,
+          githublink: "https://github.com/",
+          link: "https://github.com/",
+          description: `React.js - JavaScript - CSS - HTML - Bootstrap - Moment.js - Heroku.`,
+        },
+        {
+          id: 4,
+          name: " Vibe(Group Project)",
+          img: vibe,
+          githublink: "https://github.com/",
+          link: "https://github.com/",
+          description: `Javascript - HTML - CSS -
+          Boostrap -  API integrations: iTunes-Google Maps-Edamam - Granim.js.`,
+        },
+        {
+          id: 4,
+          name: "Archer-Forums(Group Project)",
+          img: archer,
+          githublink: "https://github.com/",
+          link: "https://github.com/",
+          description: `HTML - CSS - JavaScript - Bootstrap - Handlebars - Nodejs - Express - Sequelize - Passport - MySQl - Heroku.`,
         },
         {
           id: 2,
@@ -69,8 +66,8 @@ class Container extends React.Component {
           img: vibe,
           githublink: "https://github.com/",
           link: "https://github.com/",
-          description: `I hope to interact and work with other creative minds to grow my skills as
-          a developer in this field.`,
+          description: `Javascript - HTML - CSS,
+          Boostrap -  API integrations: iTunes-Google Maps-Edamam-and Granim.js`,
         },
         //
       ],
