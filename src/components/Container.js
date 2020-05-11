@@ -1,6 +1,7 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import { Parallax, Background } from "react-parallax";
-import imgbg from "./../paralaxbg.jpg";
+import imgbg from "./../water.jpg";
 
 import profil from "./../profil.jpg";
 import github from "./../git.PNG";
@@ -23,6 +24,8 @@ class Container extends React.Component {
           img: vibe,
           githublink: "https://github.com/",
           link: "https://github.com/",
+          description: `I hope to interact and work with other creative minds to grow my skills as
+          a developer in this field.`,
         },
         {
           id: 3,
@@ -30,6 +33,8 @@ class Container extends React.Component {
           img: passwordgenerator,
           githublink: "https://github.com/",
           link: "https://github.com/",
+          description: `I hope to interact and work with other creative minds to grow my skills as
+          a developer in this field.`,
         },
         {
           id: 4,
@@ -37,6 +42,8 @@ class Container extends React.Component {
           img: burger,
           githublink: "https://github.com/",
           link: "https://github.com/",
+          description: `I hope to interact and work with other creative minds to grow my skills as
+          a developer in this field.`,
         },
         {
           id: 4,
@@ -44,6 +51,8 @@ class Container extends React.Component {
           img: archer,
           githublink: "https://github.com/",
           link: "https://github.com/",
+          description: `I hope to interact and work with other creative minds to grow my skills as
+          a developer in this field.`,
         },
         {
           id: 4,
@@ -51,6 +60,8 @@ class Container extends React.Component {
           img: daypalanner,
           githublink: "https://github.com/",
           link: "https://github.com/",
+          description: `I hope to interact and work with other creative minds to grow my skills as
+          a developer in this field.`,
         },
         {
           id: 2,
@@ -58,6 +69,8 @@ class Container extends React.Component {
           img: vibe,
           githublink: "https://github.com/",
           link: "https://github.com/",
+          description: `I hope to interact and work with other creative minds to grow my skills as
+          a developer in this field.`,
         },
         //
       ],
@@ -77,20 +90,21 @@ class Container extends React.Component {
             <div className="col-lg-9">
               <h2 className="textTitle">Web developer</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
-                quis, sem. Nulla consequat massa quis enim. nisipellentesque eu,
-                pretium quis, sem. Nulla consequat massa quis enim nisi
+                I'm originally from Burkina Faso, a country located in the west
+                coast of Africa, but I grew up and attended most of my schools
+                in the neighboring country in Togo, which is my mother homeland.
+                My passion for programming and developing grew rapidly as I
+                moved to the United States. I enrolled at Georgia Tech coding
+                bootcamp program as a Full Stack Developer student to fulfill my
+                goals of growing and learning in a very dynamic environment
+                where I can exchange and work with my peers to acquire a
+                valuable knowledge throughout my journey.
               </p>
 
               <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
-                quis, sem. Nulla consequat massa quis enim.
+                As a bilingual (French and English speaking) person, I hope to
+                interact and work with other creative minds to grow my skills as
+                a developer in this field.
               </p>
             </div>
             <div className="col-lg-3">
@@ -111,42 +125,52 @@ class Container extends React.Component {
                 <img className="img-fluid gmail" src={gmail} />
               </a>
             </div>
-            <div></div>
+            
           </div>
         </div>
 
-        <div
-          className="portfolio"
-          style={{
-            background: `url(${imgbg})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
+
+        <Parallax 
+         className="portfolio"
+            blur={{ min: -100, max: 100 }}
+            bgImage={imgbg}
+            bgImageAlt="the dog"
+            strength={500}
         >
+
+        
+          <div className="container ">
           <div className="row ">
             <div className="col-lg-12">
               <h1 className="portfoliotTitle">PORTFOLIO</h1>
               <h5 className="portfoliotTitle2">Check Out My Latest Projects</h5>
             </div>
-            {this.state.projects.map((imagelement) => {
+            {this.state.projects.map((project) => {
               return (
                 <div className="col-lg-4">
                   <div className="projectCard">
-                    <a href={imagelement.link}>
+                    <a href={project.link}>
                       <img
                         className="img-fluid projectImage"
-                        src={imagelement.img}
+                        src={project.img}
                       />
                     </a>
                     <h2 className="projectTitle">
-                      <a href={imagelement.link}>{imagelement.name}</a>
+                      <a href={project.link}>{project.name}</a>
                     </h2>
+                    <div className="projectDescription">
+                      {project.description}
+                    </div>
                   </div>
                 </div>
               );
             })}
           </div>
-        </div>
+          </div>
+         
+       
+
+        </Parallax>
 
         <div className="contact container">
           <div className="row justify-content-md-center">
@@ -176,16 +200,16 @@ class Container extends React.Component {
                     rows="8"
                   ></textarea>
                   <div className="row text-md-left text-sm-center">
-                  <div className="col-12 col-sm-12">
-                    <button
-                      type="submit"
-                      className="btn btn-success mb-2 hidden" >
-                      Send Message
-                    </button>
+                    <div className="col-12 col-sm-12">
+                      <button
+                        type="submit"
+                        className="btn btn-success mb-2 hidden"
+                      >
+                        Send Message
+                      </button>
+                    </div>
                   </div>
                 </div>
-                </div>
-                
               </form>
             </div>
           </div>
