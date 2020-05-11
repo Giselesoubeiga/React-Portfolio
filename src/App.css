@@ -160,3 +160,27 @@ body{
 }
 
 
+.btn{
+  border-radius: 0px !important;
+}
+
+.linkIcone{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.navbar.center .navbar-inner {
+  text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+  display:inline-block;
+  float: none;
+}
+
+.menu-center{
+ 
+
+}

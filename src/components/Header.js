@@ -3,7 +3,7 @@ import React from "react";
 class Header extends React.Component {
   render() {
     return (
-      <div>
+      <div id="home">
         <div className="topHeader">
           <div className="filter"></div>
           <div className="titleContainer">

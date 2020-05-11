@@ -24,6 +24,7 @@ class Container extends React.Component {
           img: daypalanner,
           githublink: "https://github.com/",
           link: "https://github.com/",
+          browserlink: "https://github.com/Giselesoubeiga/MoodProject",
           description: `Javascript - Momentjs - jQuery -  HTML -  CSS,
           Bootstrap.`,
         },
@@ -33,6 +34,7 @@ class Container extends React.Component {
           img:burger,
           githublink: "https://github.com/",
           link: "https://github.com/",
+          browserlink: "https://github.com/Giselesoubeiga/MoodProject",
           description: `Bootstrap - Express.js - Node.js - Sequelize - Handlebars.js - MySql - Heroku.`,
         },
         {
@@ -41,6 +43,7 @@ class Container extends React.Component {
           img: employee,
           githublink: "https://github.com/",
           link: "https://github.com/",
+          browserlink: "https://github.com/Giselesoubeiga/MoodProject",
           description: `React.js - JavaScript - CSS - HTML - Bootstrap - Moment.js - Heroku.`,
         },
         {
@@ -49,6 +52,7 @@ class Container extends React.Component {
           img: vibe,
           githublink: "https://github.com/",
           link: "https://github.com/",
+          browserlink: "https://github.com/Giselesoubeiga/MoodProject",
           description: `Javascript - HTML - CSS -
           Boostrap -  API integrations: iTunes-Google Maps-Edamam - Granim.js.`,
         },
@@ -58,6 +62,7 @@ class Container extends React.Component {
           img: archer,
           githublink: "https://github.com/",
           link: "https://github.com/",
+          browserlink: "https://github.com/Giselesoubeiga/MoodProject",
           description: `HTML - CSS - JavaScript - Bootstrap - Handlebars - Nodejs - Express - Sequelize - Passport - MySQl - Heroku.`,
         },
         {
@@ -66,6 +71,7 @@ class Container extends React.Component {
           img: vibe,
           githublink: "https://github.com/",
           link: "https://github.com/",
+          browserlink: "https://github.com/Giselesoubeiga/MoodProject",
           description: `Javascript - HTML - CSS,
           Boostrap -  API integrations: iTunes-Google Maps-Edamam-and Granim.js`,
         },
@@ -75,7 +81,8 @@ class Container extends React.Component {
   }
   render() {
     return (
-      <div className="sectionAbout">
+      <div className="sectionAbout" id="aboutme">
+        
         <h1 className="aboutTitle">About</h1>
 
         <div className="about container">
@@ -105,9 +112,9 @@ class Container extends React.Component {
               </p>
             </div>
             <div className="col-lg-3">
-              <button className="btn btn-success btn-block">
+              <a href="#" className="btn btn-success btn-block">
                 DOWNLOAD RESUME
-              </button>
+              </a>
             </div>
 
             <div className="col-lg-8">
@@ -127,7 +134,7 @@ class Container extends React.Component {
         </div>
 
 
-        <Parallax 
+        <Parallax id="project"
          className="portfolio"
             blur={{ min: -100, max: 100 }}
             bgImage={imgbg}
@@ -136,7 +143,7 @@ class Container extends React.Component {
         >
 
         
-          <div className="container ">
+          <div className="container" id="project">
           <div className="row ">
             <div className="col-lg-12">
               <h1 className="portfoliotTitle">PORTFOLIO</h1>
@@ -156,7 +163,12 @@ class Container extends React.Component {
                       <a href={project.link}>{project.name}</a>
                     </h2>
                     <div className="projectDescription">
-                      {project.description}
+                      {project.description.slice(0,60)}
+                    </div>
+                    <div className="linkIcone">
+                    <a href={project.githublink} className="btn btn-primary mr-2" target="_blank"><i
+                className="fab fa-github"></i></a>
+            <a href={project.browserlink} className="btn btn-primary" target="_blank"><i className="fab fa-chrome"></i></a>
                     </div>
                   </div>
                 </div>
@@ -169,7 +181,7 @@ class Container extends React.Component {
 
         </Parallax>
 
-        <div className="contact container">
+        <div className="contact container" id="contactme">
           <div className="row justify-content-md-center">
             <div className="col-lg-12">
               <h1>CONTACT</h1>
