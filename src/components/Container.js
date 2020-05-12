@@ -32,24 +32,24 @@ class Container extends React.Component {
           id: 3,
           name: "Burger-App",
           img:burger,
-          githublink: "https://github.com/",
-          browserlink: "https://github.com/Giselesoubeiga/MoodProject",
+          githublink: "https://github.com/Giselesoubeiga/Eat-Da-Burger",
+          browserlink: "https://afternoon-savannah-16664.herokuapp.com/",
           description: `Bootstrap - Express.js - Node.js - Sequelize - Handlebars.js - MySQL.`,
         },
         {
           id: 4,
           name: "Employee-Directory",
           img: employee,
-          githublink: "https://github.com/",
-          browserlink: "https://github.com/Giselesoubeiga/MoodProject",
+          githublink: "https://github.com/Giselesoubeiga/Employee-Directory",
+          browserlink: "https://giselesoubeiga.github.io/Employee-Directory/",
           description: `React.js - JavaScript - CSS - HTML - Bootstrap - Moment.js - Heroku.`,
         },
         {
           id: 4,
           name: " Vibe(Group Project)",
           img: vibe,
-          githublink: "https://github.com/",
-          browserlink: "https://github.com/Giselesoubeiga/MoodProject",
+          githublink: "https://github.com/Giselesoubeiga/MoodProject",
+          browserlink: "https://drewhowell.github.io/MoodProject/",
           description: `Javascript - HTML - CSS -
           Boostrap -  API integrations: iTunes-Google Maps-Edamam - Granim.js.`,
         },
@@ -57,16 +57,16 @@ class Container extends React.Component {
           id: 4,
           name: "Archer-Forums(Group Project)",
           img: archer,
-          githublink: "https://github.com/",
-          browserlink: "https://github.com/Giselesoubeiga/MoodProject",
+          githublink: "https://github.com/Giselesoubeiga/project-2",
+          browserlink: "https://fast-bayou-13599.herokuapp.com/",
           description: `HTML - CSS - JavaScript - Bootstrap - Handlebars - Nodejs - Express - Sequelize - Passport - MySQL - Heroku.`,
         },
         {
           id: 2,
           name: "Password-Generator",
           img: password,
-          githublink: "https://github.com/",
-          browserlink: "https://github.com/Giselesoubeiga/MoodProject",
+          githublink: "https://github.com/Giselesoubeiga/Password-Generator",
+          browserlink: "https://giselesoubeiga.github.io/Password-Generator",
           description: `Javascript - HTML - CSS,
           Boostrap -  API integrations: iTunes-Google Maps-Edamam-and Granim.js.`,
         },
@@ -113,16 +113,14 @@ class Container extends React.Component {
             </div>
 
             <div className="col-lg-8">
-              <a href="#">
+              <a href="https://github.com/Giselesoubeiga">
                 <img className=" img-fluid github" src={github} />
               </a>
 
-              <a href="#">
+              <a href="https://www.linkedin.com/in/gisele-soubeiga-87b064196/">
                 <img className="img-fluid linkedin" src={linkedin} />
               </a>
-              <a href="#">
-                <img className="img-fluid gmail" src={gmail} />
-              </a>
+             
             </div>
             
           </div>

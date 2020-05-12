@@ -18,9 +18,6 @@ class Footer extends React.Component {
               <a href="#">
                 <img className="img-fluid linkedin" src={linkedin} />
               </a>
-              <a href="#">
-                <img className="img-fluid gmail" src={gmail} />
-              </a>
             </div>
       </div>
     );
