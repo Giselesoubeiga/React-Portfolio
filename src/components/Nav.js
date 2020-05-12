@@ -5,7 +5,7 @@ class Nav extends React.Component {
   render() {
     return (
       <div>
-        <div className="navbar navbar-expand-md navbar-dark fixed-top d-flex justify-content-center">
+        <div className="navbar navbar-expand-md navbar-dark  fixed-top d-flex justify-content-center">
           <div className="menu-center">
             <button
               className="navbar-toggler"

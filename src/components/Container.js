@@ -11,7 +11,8 @@ import vibe from "./../Vibe.PNG";
 import daypalanner from "./../Workdayscheduler.PNG";
 import burger from "./../burgerApp.PNG";
 import archer from "./../archer.PNG";
-import employee from "./../employeeDirectory.PNG"
+import employee from "./../employeeDirectory.PNG";
+import password from "./../Passwordgenerator.PNG"
 
 class Container extends React.Component {
   constructor(props) {
@@ -22,8 +23,7 @@ class Container extends React.Component {
           id: 2,
           name: "Day-Planner",
           img: daypalanner,
-          githublink: "https://github.com/",
-          link: "https://github.com/",
+          githublink: "https://github.com/Giselesoubeiga/Day-Planner",
           browserlink: "https://github.com/Giselesoubeiga/MoodProject",
           description: `Javascript - Momentjs - jQuery -  HTML -  CSS,
           Bootstrap.`,
@@ -33,16 +33,14 @@ class Container extends React.Component {
           name: "Burger-App",
           img:burger,
           githublink: "https://github.com/",
-          link: "https://github.com/",
           browserlink: "https://github.com/Giselesoubeiga/MoodProject",
-          description: `Bootstrap - Express.js - Node.js - Sequelize - Handlebars.js - MySql - Heroku.`,
+          description: `Bootstrap - Express.js - Node.js - Sequelize - Handlebars.js - MySQL.`,
         },
         {
           id: 4,
           name: "Employee-Directory",
           img: employee,
           githublink: "https://github.com/",
-          link: "https://github.com/",
           browserlink: "https://github.com/Giselesoubeiga/MoodProject",
           description: `React.js - JavaScript - CSS - HTML - Bootstrap - Moment.js - Heroku.`,
         },
@@ -51,7 +49,6 @@ class Container extends React.Component {
           name: " Vibe(Group Project)",
           img: vibe,
           githublink: "https://github.com/",
-          link: "https://github.com/",
           browserlink: "https://github.com/Giselesoubeiga/MoodProject",
           description: `Javascript - HTML - CSS -
           Boostrap -  API integrations: iTunes-Google Maps-Edamam - Granim.js.`,
@@ -61,19 +58,17 @@ class Container extends React.Component {
           name: "Archer-Forums(Group Project)",
           img: archer,
           githublink: "https://github.com/",
-          link: "https://github.com/",
           browserlink: "https://github.com/Giselesoubeiga/MoodProject",
-          description: `HTML - CSS - JavaScript - Bootstrap - Handlebars - Nodejs - Express - Sequelize - Passport - MySQl - Heroku.`,
+          description: `HTML - CSS - JavaScript - Bootstrap - Handlebars - Nodejs - Express - Sequelize - Passport - MySQL - Heroku.`,
         },
         {
           id: 2,
-          name: "Vibe(Group Project)",
-          img: vibe,
+          name: "Password-Generator",
+          img: password,
           githublink: "https://github.com/",
-          link: "https://github.com/",
           browserlink: "https://github.com/Giselesoubeiga/MoodProject",
           description: `Javascript - HTML - CSS,
-          Boostrap -  API integrations: iTunes-Google Maps-Edamam-and Granim.js`,
+          Boostrap -  API integrations: iTunes-Google Maps-Edamam-and Granim.js.`,
         },
         //
       ],
@@ -112,7 +107,7 @@ class Container extends React.Component {
               </p>
             </div>
             <div className="col-lg-3">
-              <a href="#" className="btn btn-success btn-block">
+              <a href="#" className="btn btn-primary btn-block">
                 DOWNLOAD RESUME
               </a>
             </div>
@@ -163,7 +158,7 @@ class Container extends React.Component {
                       <a href={project.link}>{project.name}</a>
                     </h2>
                     <div className="projectDescription">
-                      {project.description.slice(0,60)}
+                      {project.description}
                     </div>
                     <div className="linkIcone">
                     <a href={project.githublink} className="btn btn-primary mr-2" target="_blank"><i
@@ -212,7 +207,7 @@ class Container extends React.Component {
                     <div className="col-12 col-sm-12">
                       <button
                         type="submit"
-                        className="btn btn-success mb-2 hidden"
+                        className="btn btn-primary mb-2 hidden"
                       >
                         Send Message
                       </button>

@@ -71,7 +71,7 @@ body{
 .textTitle{
   /* font-family:  Georgia, 'Times New Roman', Times, serif; */
 
-  color: green;
+  color:#007bff;
   margin-bottom: 15px;
 }
 
@@ -135,6 +135,12 @@ body{
   text-align: center;
 }
 
+.projectTitle{
+color:#007bff ;
+}
+
+
+
 .footerIcone{
   display: flex;
   justify-content: center;
@@ -171,16 +177,6 @@ body{
   padding-bottom: 20px;
 }
 
-.navbar.center .navbar-inner {
-  text-align: center;
-}
-
-.navbar.center .navbar-inner .nav {
-  display:inline-block;
-  float: none;
-}
-
-.menu-center{
- 
-
+.navbar{
+  background-color: rgb(2, 28, 43);
 }
