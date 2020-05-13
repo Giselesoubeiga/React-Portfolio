@@ -1,21 +1,21 @@
 import React from "react";
 import github from "./../git.PNG";
 import linkedin from "./../link.PNG";
-import gmail from "./../gmail2.png";
+
 
 class Footer extends React.Component {
   render() {
     return (
 
       <div className="footeritem">
-         <p className="pItem">2020 © Copyright Gisele Soubeiga. All Rights Reserved</p>
+         <p className="pItem mt-3">2020 © Copyright Gisele Soubeiga. All Rights Reserved</p>
         <div className="footerIcone">
        
-              <a href="#">
+              <a href="https://github.com/Giselesoubeiga">
                 <img className=" img-fluid github" src={github} />
               </a>
 
-              <a href="#">
+              <a href="https://www.linkedin.com/in/gisele-soubeiga-87b064196/">
                 <img className="img-fluid linkedin" src={linkedin} />
               </a>
             </div>

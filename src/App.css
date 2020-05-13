@@ -93,6 +93,7 @@ body{
 
 .footeritem{
   min-height: 100px;
+  padding: 2px;
   background-color: rgb(2, 28, 43);
 }
 

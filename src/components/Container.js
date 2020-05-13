@@ -13,6 +13,7 @@ import burger from "./../burgerApp.PNG";
 import archer from "./../archer.PNG";
 import employee from "./../employeeDirectory.PNG";
 import password from "./../Passwordgenerator.PNG"
+import Pdf from "./../GiseleSoubeigaResume.pdf"
 
 class Container extends React.Component {
   constructor(props) {
@@ -24,7 +25,7 @@ class Container extends React.Component {
           name: "Day-Planner",
           img: daypalanner,
           githublink: "https://github.com/Giselesoubeiga/Day-Planner",
-          browserlink: "https://github.com/Giselesoubeiga/MoodProject",
+          browserlink: "https://giselesoubeiga.github.io/Day-Planner/",
           description: `Javascript - Momentjs - jQuery -  HTML -  CSS,
           Bootstrap.`,
         },
@@ -107,7 +108,8 @@ class Container extends React.Component {
               </p>
             </div>
             <div className="col-lg-3">
-              <a href="#" className="btn btn-primary btn-block">
+
+              <a href= {Pdf} className="btn btn-primary btn-block">
                 DOWNLOAD RESUME
               </a>
             </div>
