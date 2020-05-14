@@ -1,12 +1,11 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
-import { Parallax, Background } from "react-parallax";
+import { Parallax, } from "react-parallax";
 import imgbg from "./../water.jpg";
 
 import profil from "./../profil.jpg";
 import github from "./../git.PNG";
 import linkedin from "./../link.PNG";
-import gmail from "./../gmail2.png";
 import vibe from "./../Vibe.PNG";
 import daypalanner from "./../Workdayscheduler.PNG";
 import burger from "./../burgerApp.PNG";
