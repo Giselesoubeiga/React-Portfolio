@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.64f5b025.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.4e31991c.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.4e31991c.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.bd277262.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.bd277262.js.map",
+    "static/js/2.b8a8746f.chunk.js": "/React-Portfolio/static/js/2.b8a8746f.chunk.js",
+    "static/js/2.b8a8746f.chunk.js.map": "/React-Portfolio/static/js/2.b8a8746f.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "precache-manifest.4333fade5f44c7cefb36ec0f59a2b5d6.js": "/React-Portfolio/precache-manifest.4333fade5f44c7cefb36ec0f59a2b5d6.js",
+    "service-worker.js": "/React-Portfolio/service-worker.js",
+    "static/css/main.64f5b025.chunk.css.map": "/React-Portfolio/static/css/main.64f5b025.chunk.css.map",
+    "static/js/2.b8a8746f.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.b8a8746f.chunk.js.LICENSE.txt",
+    "static/media/GiseleSoubeigaResume.pdf": "/React-Portfolio/static/media/GiseleSoubeigaResume.d4f0a41c.pdf",
+    "static/media/Passwordgenerator.PNG": "/React-Portfolio/static/media/Passwordgenerator.cf7485f0.PNG",
+    "static/media/Vibe.PNG": "/React-Portfolio/static/media/Vibe.3c024b95.PNG",
+    "static/media/Workdayscheduler.PNG": "/React-Portfolio/static/media/Workdayscheduler.756ba2a2.PNG",
+    "static/media/archer.PNG": "/React-Portfolio/static/media/archer.7407e4c3.PNG",
+    "static/media/App.css": "/React-Portfolio/static/media/bg.a449a0bd.jpg",
+    "static/media/burgerApp.PNG": "/React-Portfolio/static/media/burgerApp.2ab1075a.PNG",
+    "static/media/employeeDirectory.PNG": "/React-Portfolio/static/media/employeeDirectory.456fe3c5.PNG",
+    "static/media/git.PNG": "/React-Portfolio/static/media/git.7a9e1da6.PNG",
+    "static/media/link.PNG": "/React-Portfolio/static/media/link.a1d85b2f.PNG",
+    "static/media/profil.jpg": "/React-Portfolio/static/media/profil.982c11bc.jpg",
+    "static/media/water.jpg": "/React-Portfolio/static/media/water.8587ce5b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bd277262.js",
+    "static/js/2.b8a8746f.chunk.js",
+    "static/css/main.64f5b025.chunk.css",
+    "static/js/main.4e31991c.chunk.js"
+  ]
+}
